@@ -20,3 +20,6 @@ renv/cellar
 /*.Rprof
 /*.tar.gz
 /*.backup
+src/rust/vendor
+src/Makevars
+src/Makevars.win

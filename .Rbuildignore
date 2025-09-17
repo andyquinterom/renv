@@ -30,13 +30,16 @@
 ^internal$
 ^libs$
 ^logs$
-^Makefile$
 ^pkgdown$
 ^renv$
 ^tags$
 ^templates$
-^tools$
 
 ^tests/testthat/testthat-problems.rds$
 ^vignettes/renv\.graffle$
 ^README\.Rmd$
+^src/\.cargo$
+^src/rust/vendor$
+^src/rust/target$
+^src/Makevars$
+^src/Makevars\.win$

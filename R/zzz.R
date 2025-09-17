@@ -4,9 +4,6 @@
   # NOTE: needs to be visible to embedded instances of renv as well
   the$envir_self <<- renv_envir_self()
 
-  # load extensions if available
-  renv_ext_onload(libname, pkgname)
-
   # make sure renv (and packages using renv!!!) use tempdir for storage
   # when running tests, or R CMD check
   if (checking() || testing()) {
@@ -38,7 +35,6 @@
 
   renv_defer_init()
   renv_metadata_init()
-  renv_ext_init()
   renv_ansify_init()
   renv_platform_init()
   renv_virtualization_init()
